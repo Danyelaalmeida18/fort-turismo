@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/nossos-pacotes/Icone-marca.png">
+    <title>Fort turismo</title>
+</head>
+  <body>
+    <header class="container-fluid p-2 bg-info text-center">
+        <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+        <img src="img/nossos-pacotes/marca_ft.png" alt= "Fort turismo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+          <div class="collapse navbar-collapse justify-content-end bg-info" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Pacotes</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Taxas</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contato</a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Fale conosco</a></li>
+            <li><a class="dropdown-item" href="#">Chat</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Mais informações...</a></li>
+        </ul>
+      </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+        <main class="container">
+        <div class="py-5 text-center">
+        <h2>Pagamento</h2>
+      </div>
+        <div class="row g-5">
+            <div class="col-md-5 col-lg-4 order-md-last">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Seu Carrinho</span>
+            <span class="badge bg-primary rounded-pill">3</span>
+        </h4>
+          <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Nome do produto</h6>
+              <small class="text-muted">Breve descrição</small>
+            </div>
+              <span class="text-muted">$12</span>
+            </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+              <h6 class="my-0">Segundo produto</h6>
+              <small class="text-muted">Breve descrição</small>
+            </div>
+              <span class="text-muted">$8</span>
+            </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Terceiro item</h6>
+                <small class="text-muted">Breve descrição</small>
+            </div>
+            <span class="text-muted">$5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+            <h6 class="my-0">Cupom de desconto</h6>
+            <small>FORT5</small>
+          </div>
+            <span class="text-success">-$5</span>
+          </li>
+            <li class="list-group-item d-flex justify-content-between">
+            <span>Total (USD)</span>
+            <strong>$20</strong>
+        </li>
+    </ul>
+    <form class="card p-2">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Código da promoção">
+            <button type="submit" class="btn btn-secondary">Resgatar</button>
+        </div>
+    </form>
+</div>
+    <div class="col-md-7 col-lg-8">
+    <h4 class="mb-3">Endereço de pagamento</h4>
+    <form class="needs-validation" novalidate>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="firstName" placeholder="nome" value="nome" required>
+            <div class="invalid-feedback">
+          </div>
+        </div>
+            <div class="col-sm-6">
+                <label for="lastName" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" id="lastName" placeholder="sobrenome" value="sobrenome" required>
+                <div class="invalid-feedback">
+            </div>
+        </div>
+            <div class="col-12">
+              <label for="nomeusuario" class="form-label">Nome do usuário</label>
+              <div class="input-group has-validation">
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" id="nomeusuario" placeholder="Nome do usuário" required>
+              <div class="invalid-feedback">
+          </div>
+        </div>
+      </div>
+          <div class="col-12">
+            <label for="email" class="form-label">E-mail <span class="text-muted">(Opcional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="exemplo@exemplo.com">
+            <div class="invalid-feedback">
+       </div>
+      </div>
+          <div class="col-12">
+            <label for="endereco" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="endereco" placeholder="1234 principal " required>
+            <div class="invalid-feedback">
+              Please enter your shipping address.
+                </div>
+          </div>
+            <div class="col-12">
+            <label for="endereco2" class="form-label">Endereço 2 <span class="text-muted">(Opcional)</span></label>
+            <input type="text" class="form-control" id="endereco2" placeholder="Apartamento ou suite">
+          </div>
+            <div class="col-md-5">
+              <label for="pais" class="form-label">País</label>
+              <select class="form-select" id="pais" required>
+                <option value="">Escolher...</option>
+                <option>Brasil</option>
+          </select>
+            <div class="invalid-feedback">
+            </div>
+        </div>
+            <div class="col-md-4">
+              <label for="estado" class="form-label">Estado</label>
+              <select class="form-select" id="estado" required>
+                <option value="">Escolher...</option>
+                  <option>Bahia</option>
+          </select>
+             <div class="invalid-feedback">         
+            </div>
+        </div>
+            <div class="col-md-3">
+              <label for="zip" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  </div>
+                </div>
+              </div>
+                  <hr class="my-4">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="mesmo-endereco">
+                    <label class="form-check-label" for="mesmo-endereco">Endereço de envio é o mesmo que meu endereço de cobrança.</label>
+                </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="salvar-informacao">
+                    <label class="form-check-label" for="salvar-informacao">Salvar essas informações para a próxima vez.</label>
+                </div>
+                    <hr class="my-4">
+                    <h4 class="mb-3">Pagamento</h4>
+                      <div class="my-3">
+                      <div class="form-check">
+                      <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                      <label class="form-check-label" for="credito">Cartão de crédito</label>
+                  </div>
+                    <div class="form-check">
+                      <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="debito">Débito</label>
+                  </div>
+                    <div class="form-check">
+                      <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="paypal">PayPal</label>
+                  </div>
+                </div>
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <label for="cc-nome" class="form-label">Nome do cartão</label>
+                      <input type="text" class="form-control" id="cc-nome" placeholder="" required>
+                      <small class="text-muted">Nome completo como exibido no cartão</small>
+                      <div class="invalid-feedback">
+                  </div>
+                </div>
+                    <div class="col-md-6">
+                      <label for="cc-numero" class="form-label">Número do cartão</label>
+                      <input type="text" class="form-control" id="cc-numero" placeholder="" required>
+                      <div class="invalid-feedback">
+                  </div>
+                </div>
+                    <div class="col-md-3">
+                      <label for="cc-validade" class="form-label">Validade</label>
+                      <input type="text" class="form-control" id="cc-validade" placeholder="" required>
+                      <div class="invalid-feedback">
+                      </div>
+                  </div>
+                    <div class="col-md-3">
+                      <label for="cc-cvv" class="form-label">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                      <div class="invalid-feedback">
+                      </div>
+                  </div>
+                </div>
+                  <hr class="my-4">
+                  <button class="w-100 btn btn-primary btn-lg" type="submit">Continuar a compra</button>
+                </form>
+              </div>
+            </div>
+          </main>        
+            <footer class="container-fluid bg-info p-2 text-center">
+            <p>Desenvolvido por Daniela Almeida</p>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Suas comrpas</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+            <div class="modal-body">
+              Produto adicionado ao carrinho!
+          </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+              <button type="button" class="btn btn-success">Finaliazr a compra</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+  </html>

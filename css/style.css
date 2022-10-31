@@ -1,0 +1,22 @@
+h1{
+        font-size: 50px;
+        color: #9416a5;
+        font-family: 'Montserrat', sans-serif;
+}
+h2{
+        font-size: 45px;
+        color: #770799;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;     
+}
+
+p{
+        font-size: 20px;
+        color: #057928;
+}
+.carousel-caption h5{
+        font-size: 50px;
+        color:rgb(239, 253, 40);
+        text-shadow: 2px 2px 2px #000000;
+        font-family: 'Montserrat', sans-serif;
+}
